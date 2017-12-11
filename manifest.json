@@ -1,0 +1,15 @@
+{
+  "manifest_version": 2,
+  "name": " test",
+  "version": "3",
+   "description": "Vtest",
+  "icons": {"128":"chrome-icon.png","16":"chrome-icon16.png"},
+  "app": {
+    "background": {      
+      "scripts": ["background.js"]
+    }
+  },
+"permissions": [
+  "system.display"
+]
+}
